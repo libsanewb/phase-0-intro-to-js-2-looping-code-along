@@ -1,3 +1,19 @@
+function writeCards(arr){
+  newArr=[];
+  arr.forEach(element => {
+    str = 'Thank you, '+element + ', for the wonderful surprise gift!';
+   console.log("I am craxy ========================++++++++++++++++++++ieugrfbviukgfewvbiod ekfjvnlg ");
+    newArr.push(str);
+  });
+  return newArr;
+}
+
+function countDown( num){
+  for(i=num; i >=0; i-- ){
+    console.log(i);
+  }
+}
+
 require ( './helpers.js' );
 
 const sinon = require( 'sinon' )
