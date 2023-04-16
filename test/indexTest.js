@@ -1,8 +1,8 @@
+
 function writeCards(arr){
   newArr=[];
   arr.forEach(element => {
     str = 'Thank you, '+element + ', for the wonderful surprise gift!';
-   console.log("I am craxy ========================++++++++++++++++++++ieugrfbviukgfewvbiod ekfjvnlg ");
     newArr.push(str);
   });
   return newArr;
@@ -13,11 +13,9 @@ function countDown( num){
     console.log(i);
   }
 }
-
 require ( './helpers.js' );
-
 const sinon = require( 'sinon' )
-
+    
 describe( 'index.js', () => {
   let spy;
 
@@ -28,7 +26,6 @@ describe( 'index.js', () => {
   afterEach( () => {
     spy.restore();
   } );
-
   describe( 'writeCards()', () => {
 
     it( 'returns an array of thank you messages for each name provided to the function', () => {
@@ -36,7 +33,7 @@ describe( 'index.js', () => {
         "Thank you, Guadalupe, for the wonderful surprise gift!",
         "Thank you, Ollie, for the wonderful surprise gift!",
         "Thank you, Aki, for the wonderful surprise gift!",
-      ]);
+      ]); 
     } );
   } );
 
